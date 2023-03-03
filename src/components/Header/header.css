@@ -82,3 +82,33 @@ background-color: var(--light-grey);
 .globe-div .globe-icon{
 font-size: 1.2rem;    
 }
+
+/* ##### Profile Menu ####### */
+.profile-menu-flex{
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 0.25rem;
+color: var(--font-grey);
+border: 1px solid var(--grey);
+padding: 0.5rem;
+border-radius: 2rem;
+}
+.profile-menu-flex:hover{
+    box-shadow: 2px 2px 5px var(--grey);
+}
+#basic-menu .menu-items{
+    font-size: 0.9rem;
+    color: var(--font-grey);
+}
+
+/* ####### Bottom Nav ####### */
+.bottom-nav{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width:100%;
+    border-top: 1px solid var(--grey);
+    box-shadow: 0 1px 2px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 5%);
+
+}

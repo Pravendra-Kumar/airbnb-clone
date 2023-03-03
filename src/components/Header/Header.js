@@ -1,8 +1,12 @@
 import React from 'react'
-import "./header.css"
+import "./Header.css"
 import logo from "../../assets/logo/long-logo.png";
 import SearchRoundedIcon from '@mui/icons-material/SearchRounded';
 import LanguageRoundedIcon from '@mui/icons-material/LanguageRounded';
+import BasicMenu from './ProfileMenu';
+import BottomNav from './BottomNav';
+import MobileSearchBar from '../MobileSearchBar/MobileSearchBar';
+
 
 const Header = () => {
   return (
@@ -24,10 +28,12 @@ const Header = () => {
              <LanguageRoundedIcon className='globe-icon' />
         </div>
         <div className='profile-div'>
-            
+            <BasicMenu/>
         </div>
     
     </div>
+    <MobileSearchBar/>
+    <BottomNav/>
     </div>
   )
 }
