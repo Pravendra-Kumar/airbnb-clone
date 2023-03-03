@@ -8,6 +8,13 @@
   --theme: #ff385c;
   --light-grey: #f7f7f7;
 }
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 
 body {
   margin: 0;

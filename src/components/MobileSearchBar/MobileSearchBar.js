@@ -4,9 +4,9 @@ import "./MobileSearchBar.css"
 const MobileSearchBar = () => {
   return (
     <div className='mobile-search-bar'>
-    MobileSearchBar
+    <h1>Hi</h1>
     </div>
   )
 }
 
-export default MobileSearchBar
+export default MobileSearchBar;

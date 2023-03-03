@@ -30,7 +30,7 @@ const Header = () => {
         <div className='profile-div'>
             <BasicMenu/>
         </div>
-    
+       
     </div>
     <MobileSearchBar/>
     <BottomNav/>
