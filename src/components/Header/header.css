@@ -5,6 +5,8 @@
     align-items: center;
     position: sticky;
     top: 0;
+    background-color: var(--white);
+    z-index: 1000;
 }
 .navbar-logo{
     height: 3rem;
@@ -108,9 +110,9 @@ border-radius: 2rem;
 }
 
 @media only screen and (max-width: 800px) {
-.navbar-logo , 
-.profile-container, 
-.search-bar{
+
+.search-bar,
+.airbnb-your-home{
 display: none;
 }
 .bottom-nav{

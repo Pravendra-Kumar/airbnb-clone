@@ -32,7 +32,7 @@ const Header = () => {
         </div>
        
     </div>
-    <MobileSearchBar/>
+    {/* <MobileSearchBar/> */}
     <BottomNav/>
     </div>
   )
