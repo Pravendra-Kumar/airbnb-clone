@@ -1,26 +1,16 @@
 import React from 'react'
 import "./Cards.css"
 import Card from './Card'
+import {list} from "../../assets/cards-list"
 
-const Cards = () => {
+function Cards() {
   return (
     <div className="cards-flex">
-       <Card/>
-       <Card/>
-       <Card/>
-       <Card/>
-       <Card/>
-       <Card/>
-       <Card/>
-       <Card/>
-       <Card/>
-       <Card/>
-       <Card/>
-       <Card/>
-       <Card/>
-       <Card/>
+      {list.map((card, i) => (
+        <Card card={card} key={i} />
+      ))}
     </div>
-  )
+  );
 }
 
 export default Cards
