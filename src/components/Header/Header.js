@@ -1,5 +1,5 @@
 import React from 'react'
-import './Header.css';
+import './header.css';
 import logo from "../../assets/logo/long-logo.png";
 import SearchRoundedIcon from '@mui/icons-material/SearchRounded';
 import LanguageRoundedIcon from '@mui/icons-material/LanguageRounded';
